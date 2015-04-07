@@ -39,12 +39,15 @@ bintray {
     user = project.property('bintray.username')
     key = project.property('bintray.key')
 
-    configuration = ['published']
+    filesSpec {
+        from project.jar.archivePath
+        into '.'
+    }
+
     publish = true
 
     pkg {
         repo = 'generic'
-        //userOrg = 'myorg'
         name = 'Base64FX'
         desc = 'The Base64FX package to encode/decode strings in Base64'
         websiteUrl = 'https://github.com/twasyl/Base64FX'
@@ -55,7 +58,7 @@ bintray {
         publicDownloadNumbers = true
 
         version {
-            vcsTag = version
+            vcsTag = "v" + version
         }
     }
 }

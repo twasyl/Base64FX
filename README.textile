@@ -1,0 +1,15 @@
+h1. Working with Base64
+
+p. *Base64FX* is a small utility for encoding strings in Base64 as well as decoding Base64 strings. Each encoded/decoded
+string is copied to the clipboard for quick access.
+
+h1. Requirements
+
+p. Base64FX is written in JavaFX 8. You will need to have a Java 8 version installed and correctly configured.
+
+h1. Running the tool
+
+p. In order to run Base64FX you can:
+
+* double click on the Base64FX JAR file
+* execute the @java -jar Base64FX-<version>.jar@ command
