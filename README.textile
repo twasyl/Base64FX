@@ -13,3 +13,5 @@ p. In order to run Base64FX you can:
 
 * double click on the Base64FX JAR file
 * execute the @java -jar Base64FX-<version>.jar@ command
+
+COUOCOU
